@@ -13,17 +13,59 @@
 		<div class="container">
 			<!-- Start Jumbotron Tag -->
 			<!-- Navigation Bar -->
+			<nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">
+                  <span>
+                     <!-- logo icon goes here -->
+                  </span> EventFun</a>
+               </div>
+
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#" style = "background-color: #222222">
+                     <input type="text" class="search">
+                     <button class="btnsrc">
+                         <span class="glyphicon glyphicon-search"  aria-hidden="true" style="font-size: 15px"></span>
+                     </button>
+                  </a></li>
+                 <li class="dropdown" style = "margin-left: 350px">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Username <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Attended</a></li>
+                    <li><a href="#">Saved</a></li>
+                    <li><a href="#">Manage Events</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account Setting</a></li>
+                    <li><a href="#">Log Out</a></li>
+                  </ul>
+                  </a>
+                </li>
+
+                 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Attended</a></li>
+                    <li><a href="#">Saved</a></li>
+                    <li><a href="#">Manage Events</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account Setting</a></li>
+                    <li><a href="#">Log Out</a></li>
+                  </ul>
+                  </a>
+                </li>
+                </ul>
+                <button class="creat_event btn-"> Create Events</button>
+              </div>
+            </nav>
+
 		  <div class="jumbotron event-header">
-		  	<div class="row"> 
-			  	<h4 class="masthread-brand col-xs-9"><a href="index.html">EventsFun</a></h4> 
-			  	<nav>
-	          <ul class="nav masthead-nav">
-	            <li class="col-xs-1"><a href="#">Sign Up</a></li>
-	            <li class="col-xs-1"><a href="#">Sign In</a></li>
-	            <li class="col-xs-1"><a href="#">Help</a></li>
-	          </ul>
-	        </nav>
-		  	</div>
+		  	
 
 		  	<!-- Center Text-->
 		  	<div class="logan">
@@ -157,7 +199,7 @@
 			</div>
 		</div>
 	</body>
-	<script scr="../js/event.js">
+	<script scr="../js/event.js"></script>
 	<script src="../bootstrap/js/jquery-2.2.1.js"></script>
 	<script src="../bootstrap/js/bootstrap.min.js"></script>
 </html>
