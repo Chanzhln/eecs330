@@ -1,0 +1,13 @@
+.uploarder{
+    border-style: solid;
+    width: 250px;
+    height: 250px;
+}
+
+.inline{
+    margin-left: 10px;
+    margin-top: 10px;
+    border-style: dashed;
+    width: 220px;
+    height: 220px;
+}

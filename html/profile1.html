@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EventsFun</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/profile1.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="page">
+
+            <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">
+                  <span>
+                     <!-- logo icon goes here -->
+                  </span> EventFun</a>
+               </div>
+
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Search Box insert here </a></li>
+
+                 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Username <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Attended</a></li>
+                    <li><a href="#">Saved</a></li>
+                    <li><a href="#">Manage Events</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account Setting</a></li>
+                    <li><a href="#">Log Out</a></li>
+                  </ul>
+                  </a>
+                </li>
+
+                 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Attended</a></li>
+                    <li><a href="#">Saved</a></li>
+                    <li><a href="#">Manage Events</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account Setting</a></li>
+                    <li><a href="#">Log Out</a></li>
+                  </ul>
+                  </a>
+                </li>
+                </ul>
+                <button class="creat_event btn-"> Create Events</button>
+              </div>
+            </nav>
+
+            <div class="container marketing">
+                <div class "block title">
+                    <h2 class = "Text" style = "font-size: 45px">Profile</h2>
+                </div>
+
+                <div class "feature divide">
+                     <hr>
+                </div>
+
+                <div class "block email">
+                    <h3 class = "Text2">Account Email Address</h3>
+                </div>
+                <div class "block email" style="font-size: 20px">username@u.northwestern.edu</div>
+                <button class="btn change">Change</button>
+
+                <div class "block user-photo">
+                    <h3 class "Text2">Profile Photo</h3>
+                    <div class = "user-photo uploarder">
+                        <div class = "inline">
+                            <span class="glyphicon glyphicon-user"  aria-hidden="true" style="font-size: 60px"></span>
+                            <p class = "inlinetext" style="font-size: 20px">Upload Your Photo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class "Contact">
+                   <h3 class="Text2">Contact Information</h3>
+                   <div class="contact name">
+                      <div class="firstname col-xs-6" style = "width: 230px">
+                        <div>
+                          <label for = "info_firstname" class = "label" style="font-size: 15px">First Name</label>
+                        </div>
+                          <input type = "text" id = "info_firstname" class = "input_blank">
+                      </div>
+                      <div class="lastname col-xs-6" style = "width: 650px">
+                        <div>
+                          <label for = "info_firstname" class = "label" style="font-size: 15px">Last Name</label>
+                        </div>
+                          <input type = "text" id = "info_firstname" class = "input_blank">
+                      </div>
+                   </div>
+                   <div class="contact phone">
+                     <div class="homephone col-xs-6" style = "width: 230px">
+                        <div>
+                          <label for = "info_homephone" class = "label" style="font-size: 15px">Home Phone</label>
+                        </div>
+                          <input type = "text" id = "info_homephone" class = "input_blank">
+                      </div>
+                      <div class="cellphone col-xs-6" style = "width: 650px">
+                        <div>
+                          <label for = "info_cellphone" class = "label" style="font-size: 15px">Cell Phone</label>
+                        </div>
+                          <input type = "text" id = "info_cellphone" class = "input_blank">
+                      </div>
+                   </div>
+                </div>
+                <div class="Address">
+                   <h3 class="Text2">Home Address</h3>
+                   <div class="country">
+                      <div>
+                        <label for = "info_country" class = "label2" style="font-size: 15px"> Country</label>
+                      </div>
+                      <input type = "text" id = "info_country" class = "input_blank2">
+                   </div>
+                   <div class="state">
+                     <div class="zipcode col-xs-6" style = "width: 230px">
+                        <div>
+                          <label for = "info_zipcode" class = "label" style="font-size: 15px">Zip/Postal Code</label>
+                        </div>
+                          <input type = "text" id = "info_zipcode" class = "input_blank">
+                      </div>
+                      <div class="state col-xs-6" style = "width: 650px">
+                        <div>
+                          <label for = "info_state" class = "label" style="font-size: 15px">State</label>
+                        </div>
+                          <input type = "text" id = "info_state" class = "input_blank">
+                      </div>
+                   </div>
+                   <div class="Address">
+                      <div>
+                        <label for = "info_address1" class = "label2" style="font-size: 15px">Address1</label>
+                      </div>
+                      <input type = "text" id = "info_address1" class = "input_blank2">
+                      <div>
+                        <label for = "info_address2" class = "label2" style="font-size: 15px">Address2</label>
+                      </div>
+                      <input type = "text" id = "info_address2" class = "input_blank2">
+                      <div>
+                        <label for = "info_city" class = "label2" style="font-size: 15px">City</label>
+                      </div>
+                      <input type = "text" id = "info_city" class = "input_blank2">
+                   </div>
+                </div>
+                <div class="other">
+                   <h3 class="Text2">Other Information</h3>
+                   <div class="gender">
+                     <div>
+                        <label for = "info_gender" class = "label2" style="font-size: 15px"> Gender</label>
+                      </div>
+                      <input type = "text" id = "info_gender" class = "input_blank2">
+                   </div>
+                </div>
+                <div class="birth">
+                     <div>
+                        <label for = "info_birth" class = "label2" style="font-size: 15px"> Birthday</label>
+                      </div>
+                      <input type = "text" id = "info_birth" class = "input_blank2">
+                   </div>
+                   <button class="btn save">Save</button>
+                   <div>
+                     <hr class="featurette-divider">
+                   </div>
+                   <footer class = "footer">
+                     <p class="pull-right"><a href="#">Back to top</a></p>
+                     <p>&copy; EventFun, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                   </footer>
+                </div>
+              </div>
+        </div> <!-- page -->
+    </body>
+</html>
