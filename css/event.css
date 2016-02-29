@@ -173,9 +173,14 @@
 }
 
 .chat{
+<<<<<<< HEAD
     padding-bottom:130px;
     width: 350px;
     height: 150px;
+=======
+    width: 450px;
+    height: 200px;
+>>>>>>> 190bf5662672131eab227edd7be6a0fed25ab662
     margin-bottom: 25px;
     margin-top: 10px;
 }
@@ -190,6 +195,7 @@
 }
 
 .blank2{
+  border: solid;
   margin-left: 25px;
   width: 480px;
   height: 100px;
@@ -230,3 +236,11 @@
 {
   left:10%;
 }
+<<<<<<< HEAD
+=======
+
+.label{
+  color: #333;
+}
+
+>>>>>>> 190bf5662672131eab227edd7be6a0fed25ab662
