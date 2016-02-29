@@ -1,5 +1,5 @@
 .container
-{
+{ 
 	width:100%;
 }
 
@@ -83,6 +83,10 @@
 }
 .search
 { 
-  background-color: green;
+  background-color: #ccffff;
   color:white;
+}
+#music
+{
+  background-image:url("../image/music.jpg");
 }
