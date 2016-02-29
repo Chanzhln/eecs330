@@ -39,3 +39,26 @@
 	color:white;
 	height:25px;
 }
+
+
+/* tail bar */
+.tail-bar
+{
+	background-color: #333333;
+	color:#f2f2f2;
+}
+.common-col
+{
+	text-align: center;
+}
+.tail-text
+{	
+	margin-top: 5px;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.tail-title
+{
+	font-size:18px;
+	font-weight: bold;
+}
