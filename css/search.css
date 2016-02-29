@@ -2,14 +2,17 @@
 {
 	border:1px solid;
 	height:500px;
+	min-width: 200px;
 }
-.result
+.result-box
 {
 	border:1px solid;
 	height:1000px;
+	min-width: 600px;
 }
 .entry
-{
+{	
+	vertical-align: center;
 	height:150px;
 }
 .page-menu
@@ -26,4 +29,39 @@
 	height:300px;
 	width:100%;
 	border:1px solid;
+}
+.text-box
+{	
+	border: 1px solid;
+	height:100px;
+	padding-top: 10px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	min-width:350px;
+}
+.image-box
+{
+	background-size: 100%;
+	border:1px solid;
+	min-height: 130px;
+	min-width: 130px;
+	height:130px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.result1
+{
+	background-image: url('../image/search/result1.jpg');
+}
+.result2
+{
+	background-image: url('../image/search/result2.jpg');
+}
+.result3
+{
+	background-image: url('../image/search/result3.jpg');
+}
+.result4
+{
+	background-image: url('../image/search/result4.jpg');
 }
