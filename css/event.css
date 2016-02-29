@@ -106,8 +106,8 @@
    width: 700px;
    margin-left:30px;
    margin-right:15px;
-
 }
+
 .location
 {
   float:left;
@@ -115,6 +115,7 @@
   /*border: 1px solid;*/
   margin-left: 15px;
 }
+
 .info
 {
   border:1px solid;
@@ -150,6 +151,16 @@
   border: 1px solid;
   width: 1125px;
 }
+.add-friend,.chat-button,.send-button,.clear-button
+{ 
+  font-size: 18px;
+  background-color: #3385ff;
+  margin-left: 90px;
+  color:white;
+}
+.add-friend:hover,.chat-button:hover,.send-button:hover,.clear-button:hover{
+  color:white;
+}
 .tag
 {
   border-radius: 10px;
@@ -162,14 +173,15 @@
 }
 
 .chat{
-    width: 450px;
-    height: 300px;
+    padding-bottom:130px;
+    width: 350px;
+    height: 150px;
     margin-bottom: 25px;
     margin-top: 10px;
 }
 
 .Text{
-  font-size: 30px;
+  font-size: 14px;
   margin-left: 10px;
 }
 
@@ -180,6 +192,41 @@
 .blank2{
   margin-left: 25px;
   width: 480px;
-  height: 150px;
+  height: 100px;
 }
-
+.going
+{ 
+  font-size:20px;
+  border:0px;
+  color:white;
+  background-color: #3385ff; 
+  float:right; 
+  border-radius: 10px;
+  width: 150px; 
+  height: 60px; 
+  
+  margin-bottom: 10px;
+}
+.going:hover,.cancel-going:hover{
+  font-size:24px;
+}
+.cancel-going
+{ 
+  font-size:20px;
+  border:0px;
+  color:white;
+  border-radius: 10px;
+  background-color: #00b300;
+  float:right ;
+  width: 150px; 
+  height: 60px; 
+  margin-bottom: 10px;
+}
+.property
+{
+  color:black;
+}
+#myModel2-help
+{
+  left:10%;
+}

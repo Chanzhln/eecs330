@@ -35,6 +35,7 @@
 
 .search-button
 {	
+	border:0px;
 	background-color: #3385ff;
 	color:white;
 	height:25px;
