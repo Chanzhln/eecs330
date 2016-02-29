@@ -52,7 +52,7 @@
 {
   padding-top: 0px;
   height:500px;
-  background-image: url("../image/index-background.jpg");
+  background-image: url("../image/index/index-background.jpg");
   background-color: rgba(0,0,0,0.3);
   background-blend-mode: multiply;
 }
@@ -114,26 +114,26 @@
 #lecture
 { 
 
-  background-image:url("../image/lecture.jpg");
+  background-image:url("../image/index/lecture.jpg");
 }
 #music
 { 
 
-  background-image:url("../image/music.jpg");
+  background-image:url("../image/index/music.jpg");
 }
 #food
 { 
-  background-image:url("../image/food.jpg");
+  background-image:url("../image/index/food.jpg");
 }
 #party
 {
-  background-image:url("../image/party.jpg");
+  background-image:url("../image/index/party.jpg");
 }
 #network
 {
-  background-image:url("../image/network.jpg");
+  background-image:url("../image/index/network.jpg");
 }
 #healthy
 {
-  background-image:url("../image/healthy.jpg");
+  background-image:url("../image/index/healthy.jpg");
 }
