@@ -33,14 +33,11 @@
   border-bottom-color: #fff;
 }
 
-.container{
-	width:100%;
-}
 
 .event-header{
 	padding-top: 0px;
 	height:350px;
-  background-image:url("../image/Food-Truck.jpeg");
+  background-image:url("../image/event/Food-Truck.jpeg");
   background-color: rgba(0,0,0,0.4);
   background-blend-mode: multiply;
 }
@@ -172,11 +169,7 @@
     margin-bottom: 25px;
     margin-top: 10px;
 }
-.navi-button
-{
-  border: 1px solid;
-  height:30px;
-}
+
 .Text{
   font-size: 30px;
   margin-left: 10px;
