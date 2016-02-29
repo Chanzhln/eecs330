@@ -38,7 +38,7 @@
 
 .logan
 {	
-  color:#e6e6e6;
+  color:white;
   margin-left: auto;
   margin-right: auto;
   width:700px;
@@ -61,32 +61,79 @@
 {
   padding-left:15px;
   padding-right:15px;
-  width: 534px;
+  width: 550px;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin: 15px
+  margin: 15px;
+  height: 250px;
 }
 .short_button
 {
-  width:250px;
+  width:400px;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin: 15px
+  margin: 15px;
+  height:250px;
 }
 .category
 { 
-  width: 900px;
+  
+  width: 1010px;
   margin-top: 100px;
   margin-bottom:100px;
   margin-left:auto;
   margin-right:auto;
 }
-.search
+.division
 { 
-  background-color: #ccffff;
+  font-size: 30px;
+  background-size: 100%;
   color:white;
 }
-#music
+.division:hover
 {
+  font-size:40px;
+  color:white
+}
+
+.search
+{ 
+  height:35px;
+  width:100px;
+  background-color: #1a75ff;
+  color:white;
+  font-size:16px;
+}
+.search:hover
+{
+  background-color:#0066ff;
+  color:white;
+  font-size:17px;
+
+}
+#lecture
+{ 
+
+  background-image:url("../image/lecture.jpg");
+}
+#music
+{ 
+
   background-image:url("../image/music.jpg");
+}
+#food
+{ 
+  background-image:url("../image/food.jpg");
+}
+#party
+{
+  background-image:url("../image/party.jpg");
+}
+#network
+{
+  background-image:url("../image/network.jpg");
+}
+#healthy
+{
+  background-image:url("../image/healthy.jpg");
 }

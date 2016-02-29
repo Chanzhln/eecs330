@@ -6,7 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">  
 		<link rel="stylesheet" href="../css/index.css">
-	  
 	</head>
 	<body>
 
@@ -47,7 +46,7 @@
 				</div>
 
 				<div class="input-group col-xs-2">
-					<input type="text" class="form-control" placeholder="29/02/2016">
+					<input type="text" class="form-control" placeholder="02/29/2016">
 				</div>
 				<div class="input-group col-xs-1">
 					<input type = "button"class="btn btn-default search" onclick="jump()" value = "Search">
@@ -63,18 +62,30 @@
 	  <!-- Start Category Part -->
 	  <div class="category">
 		  <div class="row">
-				  <button type="button" class="btn btn-default long_button" id="music">Music</button>
-				  <button type="button" class="btn btn-default short_button">Food & Drink</button>
+				  <button type="button" class="btn btn-default long_button division" id="music" onclick="jump()">
+				  	Music
+				  </button>
+				  <button type="button" class="btn btn-default short_button division" id ="food" onclick="jump()">
+				  	Food & Drink
+				  </button>
 		  </div>
 
 		  <div class="row">
-			  <button type="button" class="btn btn-default short_button">Lectures</button>
-			  <button type="button" class="btn btn-default long_button">Parties</button>
+			  <button type="button" class="btn btn-default short_button division" id="lecture" onclick="jump()">
+			  	Lecture
+			  </button>
+			  <button type="button" class="btn btn-default long_button division" id="party" onclick="jump()">
+			  	Party
+			  </button>
 		  </div>
 
 		  <div class="row">
-		  	<button type="button" class="btn btn-default long_button">Networking</button>
-			  <button type="button" class="btn btn-default short_button">Healthy</button>
+		  	<button type="button" class="btn btn-default long_button division" id="network" onclick="jump()">
+		  		Networking
+		  	</button>
+			  <button type="button" class="btn btn-default short_button division" id="healthy" onclick="jump()">
+			  	Healthy
+			  </button>
 		  </div>
 		</div>
 
