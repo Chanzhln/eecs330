@@ -1,4 +1,43 @@
-.content
-{
+.content{
 	border:1px solid;
+}
+.inrow{
+    margin-top: 20px;
+    border: 1px solid;
+    height: 150px;
+}
+.uploader{
+    border: 1px solid;
+    height: 130px;
+    width: 130px;
+    margin-top: 10px;
+}
+
+.glyphicon-user{
+    margin-top: 30px;
+    margin-left: 42px;
+    font-size: 40px
+}
+
+.reply{
+    margin-top: 113px;
+    margin-left: -40px;
+    height: 30px;
+}
+
+.name{
+    margin-left: 33px;
+    font-size: 16px;
+}
+
+.label{
+    color: #333;
+    font-size: 30px
+}
+
+.input_blank{
+    width: 500px;
+    height: 100px;
+    margin-bottom: 25px;
+    margin-top: 10px;
 }
