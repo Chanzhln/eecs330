@@ -4,8 +4,7 @@
 }
 
 .jumbotron{
-	padding-top: 0px;
-	height:500px;
+
 }
 
 .masthead-nav > li {
@@ -39,6 +38,7 @@
 
 .logan
 {	
+  color:#e6e6e6;
   margin-left: auto;
   margin-right: auto;
   width:700px;
@@ -48,11 +48,13 @@
 	text-align: center
 }
 
-.form-inline
+.index-header
 {
-  width:900px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 0px;
+  height:500px;
+  background-image: url("../image/index-background.jpg");
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
 }
 
 .long_button
@@ -78,4 +80,9 @@
   margin-bottom:100px;
   margin-left:auto;
   margin-right:auto;
+}
+.search
+{ 
+  background-color: green;
+  color:white;
 }

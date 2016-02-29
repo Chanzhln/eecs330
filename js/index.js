@@ -1,6 +1,6 @@
 function jump()
 {	
-	window.location.href="../html/event.html";
+	window.location.href="../html/search_result.html";
 }
 
 function sign_in()
