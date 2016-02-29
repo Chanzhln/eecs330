@@ -1,14 +1,12 @@
 .category
 {
-	border:1px solid;
 	height:500px;
 	min-width: 200px;
 }
 .result-box
 {
-	border:1px solid;
 	height:1000px;
-	min-width: 600px;
+	min-width: 500px;
 }
 .entry
 {	
@@ -28,11 +26,9 @@
 {
 	height:300px;
 	width:100%;
-	border:1px solid;
 }
 .text-box
 {	
-	border: 1px solid;
 	height:100px;
 	padding-top: 10px;
 	margin-top: 25px;
@@ -42,7 +38,6 @@
 .image-box
 {
 	background-size: 100%;
-	border:1px solid;
 	min-height: 130px;
 	min-width: 130px;
 	height:130px;
