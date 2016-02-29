@@ -173,13 +173,11 @@
     margin-top: 10px;
 }
 .navi-button
-<<<<<<< HEAD
 { 
   border:0px;
-=======
 {
   border: 1px solid;
->>>>>>> f585d74894acf969159796b3612415ee3b40edde
+
   height:30px;
 }
 .Text{
