@@ -142,7 +142,7 @@
   font-size: 20px;
 }
 .common-text
-{ 
+{
   font-size: 16px;
 }
 .nearby-info
@@ -173,8 +173,23 @@
     margin-top: 10px;
 }
 .navi-button
+<<<<<<< HEAD
 { 
   border:0px;
+=======
+{
+  border: 1px solid;
+>>>>>>> f585d74894acf969159796b3612415ee3b40edde
   height:30px;
+}
+.Text{
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.blank2{
+  margin-left: 25px;
+  width: 480px;
+  height: 150px;
 }
 
