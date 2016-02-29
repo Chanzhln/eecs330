@@ -3,10 +3,9 @@
 }
 .creat_event {
     border-radius: 4px;
-    margin-top: -42px;
-    float: right;
-    position: relative;
-    margin-left:50%;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .btnsrc{
@@ -36,7 +35,6 @@
 
 .save{
     margin-left: 15px;
-    wi
 }
 
 .uploarder{
