@@ -1,5 +1,39 @@
-.container
-{
+.jumbotron{
+    padding-top: 0px;
+    height:50px;
+}
+
+
+.masthead-nav > li {
+  display: inline-block;
+}
+
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(0,0,0,.75);
+  border-bottom: 2px solid transparent;
+}
+
+.masthead-nav > li > a:hover,
+
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(0,0,0,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.container{
 	width:100%;
 }
 
@@ -41,7 +75,7 @@
 }
 
 .logan
-{	
+{
   color:white;
   margin-left: auto;
   margin-right: auto;
@@ -60,7 +94,7 @@
 }
 
 .event-name
-{ 
+{
   margin-top: 70px;
   font-size: 40px;
   font-weight: bold;
@@ -71,7 +105,7 @@
 }
 
 .intro
-{  
+{
    background-color: transparent;
    float:left;
    /*border: 1px solid;*/
@@ -81,14 +115,14 @@
 
 }
 .location
-{ 
+{
   float:left;
   width: 350px;
   /*border: 1px solid;*/
   margin-left: 15px;
 }
 .info
-{  
+{
   border:1px solid;
   margin-top: 0px;
   margin-left: auto;
@@ -104,7 +138,7 @@
 
 
 .title-text
-{ 
+{
   font-size: 20px;
 }
 .common-text
@@ -112,7 +146,7 @@
   font-size: 16px;
 }
 .nearby-info
-{ 
+{
   height:60px;
   margin-top:15px;
   margin-bottom:15px;
@@ -121,8 +155,8 @@
   border: 1px solid;
   width: 1125px;
 }
-.tag 
-{ 
+.tag
+{
   border-radius: 10px;
 }
 .page-menu
@@ -132,3 +166,9 @@
   color:gray;
 }
 
+.chat{
+    width: 450px;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
