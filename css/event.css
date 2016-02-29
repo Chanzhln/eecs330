@@ -173,16 +173,17 @@
     margin-top: 10px;
 }
 .navi-button
-{ 
-  border:0px;
 {
   border: 1px solid;
-
   height:30px;
 }
 .Text{
   font-size: 30px;
   margin-left: 10px;
+}
+
+.user{
+  background-color: transparent;
 }
 
 .blank2{
