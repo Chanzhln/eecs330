@@ -12,3 +12,9 @@
 {
 	height:150px;
 }
+.page-menu
+{	
+	vertical-align: bottom;
+	margin-top: auto;
+	margin-bottom: 0px;
+}
