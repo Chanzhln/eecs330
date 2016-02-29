@@ -1,4 +1,25 @@
 .self-navibar
 {
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navi-button
+{	
+	border:0px;
+  height:30px;
+}
+.create-button
+{
+	color:green;
+}
+.brand-button
+{	
+	color:black;
+}
+
+.search-button
+{	
+	background-color: white;
+	height:25px;
 }
