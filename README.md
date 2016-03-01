@@ -11,14 +11,14 @@
 
 ##Platform
         iOS System, Google Chrome. 
-        **For a better effect, please make the browser as wide as the screen.*
+        *For a better effect, please make the browser as wide as the screen.*
 
 ##Guideline:
         Available functions(Horizontal Tasks):
-        *Bold text displays a vertical feature of our design (How could an user find an event and then build connection with nearby users)
+        *Bold text displays a vertical feature of our design (How could an user find an event and then build connection with nearby users)*
         1.	The “EventsFun” brand on the navigation bar could always help users go back to the homepage.
         2.	“Sign Up” and “Sign in” button have its function, though it’s roughly implemented.
-        3.	The “Search” button as well as the category buttons could jump to another page.
+        *3.	The “Search” button as well as the category buttons could jump to another page.*
         4.	It’s assumed that user have already log in.
         5.	“Username” and “Help” are two dropdown box. And “Account Setting” is an available action, which could show user his profile. It’s roughly implemented as well.
         6.	Google Map is available.
