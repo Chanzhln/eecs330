@@ -11,8 +11,7 @@
 
 ##Platform
         iOS System, Google Chrome. 
-        *For better effect, please make the browser as wide as the screen.
-        *Homepage is located at “./eecs330/html/index.html”
+        *For a better effect, please make the browser as wide as the screen.
 
 ##Guideline:
         Available functions(Horizontal Tasks):
