@@ -1,6 +1,7 @@
 # eecs330
 
                                               P6: Computer Prototype
+                                              ======================
 
 Team Name
 FLAG
