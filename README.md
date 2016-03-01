@@ -11,7 +11,7 @@
 
 ##Platform
         iOS System, Google Chrome. 
-        *For a better effect, please make the browser as wide as the screen.
+        **For a better effect, please make the browser as wide as the screen.*
 
 ##Guideline:
         Available functions(Horizontal Tasks):
