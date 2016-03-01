@@ -3,11 +3,11 @@
 #P6: Computer Prototype
 
 
-Team Name
-FLAG
+##Team Name
+    FLAG
 
-Team Member
-Zhilin Chen(zcj456), Zhongming Mu(zmh358), Chaofan Yu(cyy040)
+##Team Member
+    Zhilin Chen(zcj456), Zhongming Mu(zmh358), Chaofan Yu(cyy040)
 
 Platform
 iOS System, Google Chrome. 
