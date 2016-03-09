@@ -97,6 +97,7 @@
   font-size: 30px;
   background-size: 100%;
   color:white;
+  text-shadow: 1px 1px black;
 }
 .division:hover
 {
